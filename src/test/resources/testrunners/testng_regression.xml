@@ -24,11 +24,5 @@
 			<class name="com.qa.opencart.test.HomePageTest" />
 		</classes>
 	</test>
-	
-	<test name="ProductInfo Test">
-		<classes>
-			<class name="com.qa.opencart.test.ProductInfoTest" />
-		</classes>
-	</test>
 
 </suite>

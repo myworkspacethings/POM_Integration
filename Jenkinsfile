@@ -11,7 +11,7 @@ agent any
         stage('Test') {
             steps {
                 catchError(buildResult: 'SUCCESS', stageResult: 'FAILURE') {
-                    bat "clean install"
+                    bat"mvn clean install"
                 }
             }
         }
